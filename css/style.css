@@ -1,0 +1,74 @@
+#button{clear: both;
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+	height: 50px;
+  width: 20%;
+	background-color: #00ff00;
+  text-align: center;
+  margin-top: 0px;
+	margin-left: 40%;
+
+}
+
+.flashy {font-size: 20px;
+  font-weight: bold;
+  position: relative;
+	color: #ff0000;
+	margin-top: 45px;
+	}
+h1{margin-bottom: -15px;text-align: center; text-decoration: underline;
+	font-size: 100px;
+	margin-top: 0px;
+	color: #cc0066;
+	text-decoration-style: wavy;
+	font-style: italic;
+	font-family: serif;
+}
+body{background-image: url(http://thecupcakeshoppe.ca/images/intro.gif);
+	background-size: contain;}
+.important{margin-left: 45%;
+	margin-bottom: 0px;}
+
+.intro{background-color: #ffe6f9;}
+
+h5{margin-top: 0px;
+	color: #e600ac;}
+h2{margin-bottom: 0px;
+	color: #cc0066;}
+#footer{
+		clear: both;
+		position: relative;
+		bottom: -20px;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		height: 150px;
+		background-color: #4d0039;
+	}
+.information{float: right; color: #ffff33;}
+
+.working_hours{float: left; color: #ffffcc;}
+
+.facebook{
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 50px;
+	width: 120px;
+	margin: auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #3D59AB;
+}
+
+span {
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+}
