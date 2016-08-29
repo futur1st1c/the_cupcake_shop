@@ -1,0 +1,139 @@
+html,body
+{
+    width:100%;
+    margin: 0px auto;
+    height:100%;
+}
+
+/*navigation bar*/
+
+.mainbar
+{
+    padding: 0px;
+    width:100%;
+    height: 80px;
+    position:fixed;
+    background-color: #00796B;
+    color: #ffffff;
+    bottom: 0;
+}
+
+.mainbar img{
+left: 0;
+
+}
+
+.mainbar:hover
+{
+    opacity: .6;
+}
+
+.mainbar ul li
+{
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size:20px;
+}
+
+li a
+{
+    text-decoration: none;
+    color: #fff;
+    margin-left:2 px;
+}
+li a:active
+{
+    background-color: #186A3B;
+}
+nav
+{
+    float: right;
+    padding:2%;
+}
+h1, h3
+{
+    float:left;
+    top: 20px;
+    left: 40px;
+
+
+    padding:2%;
+}
+/* Images*/
+
+.slider img
+{
+    width:100%;
+    padding-bottom: 1%;
+
+}
+
+.articles img
+{
+    width:100%;
+    padding:.5%;
+}
+
+/* articles*/
+.articles
+{
+    width: 100%;
+}
+.cake_article
+{
+    float: left;
+    width: 30%;
+    padding-right: 2%;
+    padding-left:1%;
+
+}
+.cake_article p
+{
+    width: 380px;
+    text-align: center;
+}
+.cake_article button
+{
+    background-color:lightgrey;
+    border-radius: 25px;
+    border: none;
+    color: #F39723;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    float: left;
+    clear:left;
+}
+.sidebar
+{
+    width:30%;
+    margin:0;
+    padding-left:0px;
+    height:100%;
+    background-color: red;
+    padding-top:134px;
+}
+.sidebar ul li
+{
+    text-decoration: none;
+    font-size: 25px;
+    list-style: none;
+    padding-bottom: 15px;
+    width: inherit;
+}
+.cakeblog
+{
+    margin-left:30%;
+    float:left;
+    margin-top:0px;
+}
+
+.cakeblog span
+{
+    text-decoration: darkblue;
+    font-weight:bold;
+    font-size: 20px;
+}
