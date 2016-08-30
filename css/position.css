@@ -22,10 +22,13 @@ html,body
 left: 0;
 
 }
+.mainbar h1{
+  bottom: 85px;
+}
 
 .mainbar:hover
 {
-    opacity: .6;
+    opacity: .8;
 }
 
 .mainbar ul li
@@ -58,8 +61,6 @@ h1, h3
     top: 0px;
     left: 40px;
     color: black;
-
-
     padding:2%;
 }
 /* Images*/
@@ -117,23 +118,23 @@ h1, h3
     float: left;
     clear:left;
 }
+.siderbar img{
+top: 0;
+left:0;
+
+}
+
 .sidebar
 {
-    width:30%;
+    width:100%;
     margin:0;
+    top: 0;
     padding-left:0px;
-    height:100%;
-    background-color: red;
+    height:30%;
+    background-color: #009688;
     padding-top:134px;
 }
-.sidebar ul li
-{
-    text-decoration: none;
-    font-size: 25px;
-    list-style: none;
-    padding-bottom: 15px;
-    width: inherit;
-}
+
 .cakeblog
 {
     margin-left:30%;
@@ -146,4 +147,10 @@ h1, h3
     text-decoration: darkblue;
     font-weight:bold;
     font-size: 20px;
+    float: right;
+}
+
+.cakeblog p
+{
+  float: right;
 }
