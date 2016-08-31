@@ -38,6 +38,8 @@ left: 0;
     text-transform: uppercase;
     font-weight: bolder;
     font-size:20px;
+    border: 30px;
+
 }
 
 li a
@@ -118,22 +120,7 @@ h1, h3
     float: left;
     clear:left;
 }
-.siderbar img{
-top: 0;
-left:0;
 
-}
-
-.sidebar
-{
-    width:100%;
-    margin:0;
-    top: 0;
-    padding-left:0px;
-    height:30%;
-    background-color: #009688;
-    padding-top:134px;
-}
 
 .cakeblog
 {
